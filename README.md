@@ -24,10 +24,11 @@ You should create one R script called run_analysis.R that does the following.
 #Read files with labels, id and measures, based on readme.txt information 
 
 ##Labels
+'''
 activity_labels <- read.table("C:/Users/pedro/OneDrive/Ambiente de Trabalho/datasciencecoursera/UCI HAR Dataset/activity_labels.txt")
 
 features <- read.table("C:/Users/pedro/OneDrive/Ambiente de Trabalho/datasciencecoursera/UCI HAR Dataset/features.txt")
-
+'''
 
 ##id (subject and activity)
 subject_test <- read.table("C:/Users/pedro/OneDrive/Ambiente de Trabalho/datasciencecoursera/UCI HAR Dataset/test/subject_test.txt")
